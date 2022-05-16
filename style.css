@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+/****** Common Styles *****/
+div.background-container--image-1,
+div.background-container--image-2,
+div.background-container--image-3,
+div.background-container--image-4,
+div.background-container--image-5 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  /* padding: 2rem; */
+  font-weight: 700;
+  font-size: 24px;
+}
+p.section {
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+.section-div {
+  padding: 3rem 5rem;
+}
+.section-div p .bold {
+  font-weight: 700;
+}
+.heading-container {
+  font-size: 3rem;
+  line-height: 5rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  color: white;
+}
+.heading-container__span {
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.6rem;
+  line-height: 2.5rem;
+  background-color: black;
+  padding: 0.7rem;
+}
+/******* First Page **********/
+/**** Background-image***/
+div.background-container--image-1 {
+  background-image: url(./img/bg.jpg);
+  min-height: 100vh;
+}
+.heading-first-last {
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+  line-height: 2.5rem;
+  background-color: black;
+  padding: 2rem;
+}
+/**** Section-1 ****/
+.section-div-1 {
+  background-color: #f1f1f1;
+  color: #666666;
+}
+
+.section-div-1 p .bold {
+  font-weight: 700;
+}
+/********* Second Page *********/
+/**** Background-image***/
+.background-container--image-2 {
+  background-image: url(./img/bg2.jpg);
+  min-height: 80vh;
+}
+.clarusway-image__img {
+  width: 25rem;
+}
+/**** Section-2 ****/
+.section-div-2 {
+  background-color: #282e34;
+  color: #ddd;
+}
+/********* Third Page *********/
+/**** Background-image***/
+div.background-container--image-3 {
+  background-image: url("./img/bg3.jpg");
+  min-height: 80vh;
+}
+
+/**** Section-3 ****/
+.section-div-3 {
+  background-color: #f1f1f1;
+  color: #666;
+}
+/********* Fourth Page *********/
+/**** Background-image***/
+div.background-container--image-4 {
+  background-image: url("./img/bg4.jpg");
+  min-height: 80vh;
+}
+/**** Section-4 ****/
+.section-div-4 {
+  background-color: #282e34;
+  color: #ddd;
+}
+/********* Last Page *********/
+/**** Background-image***/
+div.background-container--image-5 {
+  background-image: url(./img/bg.jpg);
+  min-height: 100vh;
+}
