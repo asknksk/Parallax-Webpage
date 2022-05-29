@@ -1,5 +1,8 @@
-# Parallax-Webpage
+# Parallax-Webpage <br>
 
+# Project Preview
+
+![](https://github.com/asknksk/Parallax-Website/Animation.gif)
 
 ## Project Link
 
