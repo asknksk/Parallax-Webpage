@@ -2,7 +2,7 @@
 
 # Project Preview
 
-![](https://github.com/asknksk/Parallax-Website/Animation.gif)
+![Alt Text](https://github.com/asknksk/Parallax-Website/blob/master/Animation.gif)
 
 ## Project Link
 
